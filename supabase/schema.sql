@@ -9,7 +9,7 @@
 --     and only touches that room's rows. The room code is the "password".
 -- =====================================================================
 
--- If you ran the earlier sign-in version of this file, clean it up first
+-- If you ran the earlier sign-in version of this fxile, clean it up first
 -- (this deletes its tables - fine if you have no data yet):
 -- drop table if exists public.expenses, public.members, public.room_users, public.rooms cascade;
 drop function if exists public.create_room(text);
